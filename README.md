@@ -42,13 +42,9 @@ concept map or photo), create an `images/` folder, drop the file in, and referen
 
 ## Deploying to GitHub Pages
 
-**Option A — from a branch (simplest):**
+This site is published straight from a branch (no build step needed):
+
 1. Push these files to the branch you want to publish from (e.g. `claude/recreate-deploy-github-pages-19iatr`).
 2. Go to **Settings → Pages**.
 3. Under *Build and deployment*, set **Source: Deploy from a branch**, pick that branch, folder **/ (root)**.
 4. Your site publishes at `https://<username>.github.io/<repo>/`.
-
-**Option B — GitHub Actions (included):**
-The workflow at `.github/workflows/deploy.yml` deploys automatically on every push to
-`claude/recreate-deploy-github-pages-19iatr`. Set **Settings → Pages → Source: GitHub Actions**
-once, and each push will publish the site.
