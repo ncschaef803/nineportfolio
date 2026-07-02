@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nina — Instructional Design Portfolio</title>
+  <meta name="description" content="Professional portfolio: about, learning journey, course artifacts, resources, and contact." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#home" data-tab-link="home">
+        <span class="brand-mark" aria-hidden="true">N</span>
+        <span class="brand-text">
+          <strong>Nina</strong>
+          <small>Learning &amp; Instructional Design</small>
+        </span>
+      </a>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav id="primary-nav" class="primary-nav" aria-label="Primary">
+        <button class="tab-btn" role="tab" data-tab="home" aria-selected="true">Home</button>
+        <button class="tab-btn" role="tab" data-tab="journey" aria-selected="false">My Learning Journey</button>
+        <button class="tab-btn" role="tab" data-tab="artifacts" aria-selected="false">Course Artifacts</button>
+        <button class="tab-btn" role="tab" data-tab="resources" aria-selected="false">Resources</button>
+        <button class="tab-btn" role="tab" data-tab="contact" aria-selected="false">Contact</button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============ HOME / ABOUT ME ============ -->
+    <section class="tab-panel is-active" id="home" role="tabpanel" tabindex="-1">
+      <div class="hero">
+        <div class="wrap hero-inner">
+          <div class="hero-text">
+            <p class="eyebrow">Welcome</p>
+            <h1>Hi, I'm Nina.</h1>
+            <p class="lede">I'm excited to share my ePortfolio with you! It demonstrates my learning and growth throughout my course in Evaluation, Assessment, and Data-Driven Learning Design.</p>
+            <div class="hero-actions">
+              <button class="btn btn-primary" data-tab-link="journey">Explore my work</button>
+              <button class="btn btn-ghost" data-tab-link="contact">Get in touch</button>
+            </div>
+          </div>
+          <div class="hero-photo" aria-hidden="true">
+            <div class="photo-placeholder">Your photo</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="wrap section-stack">
+        <article class="card">
+          <h2>Background</h2>
+          <p>This portfolio includes demonstrations of my learning and growth throughout my course in Evaluation, Assessment, and Data-Driven Learning Design. You will find course projects, reflections, and resources that demonstrate my developed understanding of authentic assessment, evaluation strategies, learning analytics, and instructional design.</p>
+          <p>I am a first-grade special education teacher, which means I am very passionate about creating meaningful, accessible learning experiences that support every student's success. This portfolio reflects not only my growth throughout this course but also how I plan to apply these ideas to improve teaching and learning in my own classroom!</p>
+          <p>Thank you for visiting, and I invite you to explore my learning journey.</p>
+        </article>
+
+        <article class="card">
+          <h2>Education</h2>
+          <ul class="timeline">
+            <li>
+              <span class="timeline-dot" aria-hidden="true"></span>
+              <div>
+                <h3>Degree / Program Name</h3>
+                <p class="muted">Institution · Year</p>
+                <p>Brief note about your focus, honors, or a relevant capstone.</p>
+              </div>
+            </li>
+            <li>
+              <span class="timeline-dot" aria-hidden="true"></span>
+              <div>
+                <h3>Degree / Certificate Name</h3>
+                <p class="muted">Institution · Year</p>
+                <p>Brief note about your focus or key coursework.</p>
+              </div>
+            </li>
+          </ul>
+        </article>
+
+        <article class="card accent">
+          <h2>Philosophy</h2>
+          <blockquote>
+            <p>Share your teaching and design philosophy here. What do you believe about how people learn? What principles guide your design decisions? A short, genuine statement resonates more than a long one.</p>
+          </blockquote>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ MY LEARNING JOURNEY ============ -->
+    <section class="tab-panel" id="journey" role="tabpanel" tabindex="-1">
+      <div class="wrap">
+        <header class="page-head">
+          <p class="eyebrow">My Learning Journey</p>
+          <h1>How my thinking evolved</h1>
+          <p class="lede">A look at where I started, where I landed, and what I learned along the way.</p>
+        </header>
+
+        <div class="grid grid-2">
+          <article class="card">
+            <h2>Initial Vision Statement</h2>
+            <p>Paste your initial vision statement here — the goals and beliefs you held at the start of the program. This captures your baseline thinking.</p>
+          </article>
+
+          <article class="card">
+            <h2>Final Vision Statement</h2>
+            <p>Paste your final vision statement here — how your vision matured. Highlight what changed and why.</p>
+          </article>
+        </div>
+
+        <article class="card">
+          <h2>Concept Map</h2>
+          <p>Embed or link your concept map. Replace the placeholder below with an image of your map.</p>
+          <figure class="media-placeholder">
+            <div class="media-inner">Concept map image goes here<br /><small>Add to an <code>images/</code> folder and link it</small></div>
+          </figure>
+        </article>
+
+        <article class="card accent">
+          <h2>Reflection</h2>
+          <p>Write a reflection on your growth. What surprised you? What skills feel strongest now? What would you do differently? This is often the most compelling part of a portfolio.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ COURSE ARTIFACTS ============ -->
+    <section class="tab-panel" id="artifacts" role="tabpanel" tabindex="-1">
+      <div class="wrap">
+        <header class="page-head">
+          <p class="eyebrow">Course Artifacts</p>
+          <h1>Selected projects</h1>
+          <p class="lede">Representative work from my coursework, with context on the goal and my role.</p>
+        </header>
+
+        <div class="grid grid-3">
+          <article class="card project">
+            <div class="project-tag">Assessment</div>
+            <h2>Assessment Project</h2>
+            <p>Summarize the project: the problem, your approach, and the outcome. Link to the full artifact.</p>
+            <a class="link-arrow" href="#" aria-disabled="true">View project →</a>
+          </article>
+
+          <article class="card project">
+            <div class="project-tag">Evaluation</div>
+            <h2>Evaluation Project</h2>
+            <p>Describe what you evaluated, the method you used, and what the results informed.</p>
+            <a class="link-arrow" href="#" aria-disabled="true">View project →</a>
+          </article>
+
+          <article class="card project">
+            <div class="project-tag">Design</div>
+            <h2>Data-Driven Learning Design</h2>
+            <p>Explain how you used data to shape a learning design decision. Include the insight and the impact.</p>
+            <a class="link-arrow" href="#" aria-disabled="true">View project →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ RESOURCES / TOOLBOX ============ -->
+    <section class="tab-panel" id="resources" role="tabpanel" tabindex="-1">
+      <div class="wrap">
+        <header class="page-head">
+          <p class="eyebrow">Resources / Toolbox</p>
+          <h1>Tools I work with</h1>
+          <p class="lede">The everyday tools I use to build, analyze, and share learning materials.</p>
+        </header>
+
+        <div class="grid grid-tools">
+          <article class="tool-card">
+            <div class="tool-icon" aria-hidden="true">📊</div>
+            <h3>Microsoft Excel</h3>
+            <p>Data analysis, tracking, and dashboards.</p>
+          </article>
+          <article class="tool-card">
+            <div class="tool-icon" aria-hidden="true">📝</div>
+            <h3>Microsoft Word</h3>
+            <p>Documentation, guides, and written deliverables.</p>
+          </article>
+          <article class="tool-card">
+            <div class="tool-icon" aria-hidden="true">📈</div>
+            <h3>Google Sheets</h3>
+            <p>Collaborative data and live-updating trackers.</p>
+          </article>
+          <article class="tool-card">
+            <div class="tool-icon" aria-hidden="true">📄</div>
+            <h3>Google Docs</h3>
+            <p>Shared drafting and real-time feedback.</p>
+          </article>
+          <article class="tool-card">
+            <div class="tool-icon" aria-hidden="true">🗒️</div>
+            <h3>Google Forms</h3>
+            <p>Surveys, assessments, and data collection.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="tab-panel" id="contact" role="tabpanel" tabindex="-1">
+      <div class="wrap">
+        <header class="page-head">
+          <p class="eyebrow">Contact</p>
+          <h1>Let's connect</h1>
+          <p class="lede">I'd love to hear from you — reach out anytime.</p>
+        </header>
+
+        <div class="contact-card">
+          <dl class="contact-list">
+            <div class="contact-row">
+              <dt>Name</dt>
+              <dd>Nina [Last Name]</dd>
+            </div>
+            <div class="contact-row">
+              <dt>Title</dt>
+              <dd>First-Grade Special Education Teacher</dd>
+            </div>
+            <div class="contact-row">
+              <dt>Email</dt>
+              <dd><a href="mailto:you@example.com">you@example.com</a></dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>&copy; <span id="year"></span> Nina. Built with care.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
