@@ -243,6 +243,10 @@ a { color: var(--accent); }
   font-weight: 600;
   text-decoration: none;
 }
+.card.accent .link-arrow {
+  display: inline-block;
+  margin-top: 1rem;
+}
 .link-arrow[aria-disabled="true"] { color: var(--ink-soft); pointer-events: none; }
 
 /* ---------- Media placeholder ---------- */
